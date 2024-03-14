@@ -19,7 +19,7 @@ if os.path.isfile("env.py"):
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-
+TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
@@ -32,9 +32,11 @@ DEBUG = True
 
 # ALLOWED_HOSTS = ["mb2test.herokuapp.com", "localhost"]
 
-#ALLOWED_HOSTS = ['8000-meena-rathi-blogproject-7j96l2zjx6.us1.codeanyapp.com']
-# ALLOWED_HOSTS = ['8000-meena-rathi-blogproject-7j96l2zjx6.us1.codeanyapp.com']
-ALLOWED_HOSTS = ["mb2test.herokuapp.com", "localhost"]
+ALLOWED_HOSTS = ['codestarprojeect.herokuapp.com', 'localhost']
+
+#ALLOWED_HOSTS = ['https://meena-rathi-blogproject-7j96l2zjx6.us1.codeanyapp.com/']
+# '8000-meena-rathi-blogproject-7j96l2zjx6.us1.codeanyapp.com'
+# ALLOWED_HOSTS = ["codestarprojeect-96b0099c4d63.herokuapp.com", "localhost"]
 # Application definition
 
 INSTALLED_APPS = [
