@@ -32,7 +32,7 @@ DEBUG = True
 
 # ALLOWED_HOSTS = ["mb2test.herokuapp.com", "localhost"]
 
-ALLOWED_HOSTS = ['codestarprojeect.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['8000-meena-rathi-blogproject-7j96l2zjx6.us1.codeanyapp.com']
 
 #ALLOWED_HOSTS = ['https://meena-rathi-blogproject-7j96l2zjx6.us1.codeanyapp.com/']
 # '8000-meena-rathi-blogproject-7j96l2zjx6.us1.codeanyapp.com'
@@ -66,7 +66,7 @@ ROOT_URLCONF = 'codestar.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [TEMPLATES_DIR],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
